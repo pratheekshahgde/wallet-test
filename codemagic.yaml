@@ -10,7 +10,7 @@ workflows:
     instance_type: mac_mini_m2 # Recommended for React Native
     environment:
       vars:
-        PACKAGE_NAME: "org.openwallet.bifold" # <-- Update with Bifold's actual package name
+        PACKAGE_NAME: "com.ariesbifold" # <-- Update with Bifold's actual package name
         ANDROID_SDK_ROOT: /opt/android-sdk # Codemagic's default SDK location
       node: v18.20.6 # As per the Bifold guide
     scripts:
